@@ -1,14 +1,22 @@
+<br/>
+
 
 <h1>FAQ - Frequently Asked Questions</h1>
+
+<br/><br/>
 
 <p>Below you can find a list of commonly asked questions however if you can not find
     what you looking for, you can go to the Help page for more indepth
     explanations. If you are still lost, do not hesitate in contacting us.</p>
 
+<br/>
+
 <h3>1.</h3>
 
 <p>Q. What can I submit?</p>
 <p>A. Amusing Images which others can caption</p>
+
+<br/>
 
 <h3>2.</h3>
 
@@ -16,11 +24,17 @@
 <p>Q. What types of images can I submit?</p>
 <p>A. .jpg, .gif and .png</p>
 
+<br/>
+
+
 <h3>3.</h3>
 
 
 <p>Q. Can anyone post images and captions?</p>
 <p>A. No, you must be a registered user to caption and upload images</p>
+
+<br/>
+
 
 <h3>4.</h3>
 
@@ -28,11 +42,17 @@
 <p>Q. Do I need to pay to create an account?</p>
 <p>A. No, users can create a free account without the worry of having to pay</p>
 
+<br/>
+
+
 <h3>5.</h3>
 
 
 <p>Q. Does uploading images or captions fall under a paygate?</p>
 <p>A. No, registered users can upload and caption without monetary barriers.</p>
+
+<br/>
+
 
 
 
@@ -41,6 +61,9 @@
 
 <p>Q. Can I link to an image from another site for others to caption?</p>
 <p>A. No, you must save the image to your computer and then upload it.</p>
+
+<br/>
+
 
 
 
@@ -53,6 +76,9 @@
     an image is. All users then have the ability to view 
     images on the front page by most recent or most popular.</p>
 
+<br/>
+
+
 
 
 <h3>8.</h3>
@@ -61,6 +87,9 @@
 <p>Q. How do I report an offensive image or caption?</p>
 <p>A. Go to our <a href="http://localhost/InsertCaption/web/index.php?page=contact">contact page</a> and inform us of the image. Please
     provide a link to the image so we can investigate the matter further.</p>
+
+<br/>
+
 
 
 
@@ -73,6 +102,9 @@
     can find more information on this by going to the <a href="http://localhost/InsertCaption/web/index.php?page=help">
         help page</a> and looking under Copyright</p>
 
+<br/>
+
+
 
 
 <h3>10.</h3>
@@ -82,6 +114,9 @@
 <p>A. If another user is harassing you in anyway i.e posting threatening
     or sexually explicit comments please <a href="http://localhost/InsertCaption/web/index.php?page=contact">contact us</a> 
     immediately and inform us of the user that is posting these comments</p>
+
+<br/>
+
 
 
 
@@ -96,7 +131,7 @@
     themselves. If no justified response is given then measures will be taken to remedy the 
     situation</p>
 
-
+<br/>
 
 <h3>12.</h3>
 
@@ -105,8 +140,16 @@
 <p>A. Anyone who posts images which are objectionable or offensive in any way will have their images
     pulled from the site. If said image is overly offensive in any matter, then the user
     will be banned and reported to the authorities. This site will not tolerate images of this nature
-    and will pursue those responsible.</p>
+    and will pursue those responsible</p>
 
+
+<br/><br/>
 
 <p>For more assistance, please visit the <a href="http://localhost/InsertCaption/web/index.php?page=help">
         Help page</a> for more information.</p>
+
+<br/>
+
+<a href="http://localhost/InsertCaption/web/index.php?page=faq">Back to top</a>
+
+<br/><br/>
