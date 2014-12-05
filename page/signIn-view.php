@@ -1,13 +1,12 @@
 <br/><br/>
 
-<form id="createAcccount_Form" method="post" onsubmit="submitForm(this);" action="http://localhost/InsertCaption/web/index.php?page=thankyou">
 
+<form id="signIn_Form" method="post" onsubmit="submitForm(this);" action="http://localhost/InsertCaption/web/index.php">
 
-    <fieldset>
-
-        <legend>Come join us , Forever and Ever and Ever</legend>
-        
-     
+<fieldset>
+    
+    <legend>Sign In</legend>
+    
         <br/>
 
     <!--        ///////////////////////////       -->
@@ -46,17 +45,6 @@
     <span id="password_error"></span><br/><br/>
 
 
-    <!--        ////////////////////////////////       -->
-    <!--               Confirm Password                -->
-    <!--       ////////////////////////////////        -->
-
-
-
-    <label for="confirm_password">Confirm Password</label>
-
-    <br />
-
-    <input id="confirm_password" type="password" name="confirm_password"/>
 
 
 
@@ -69,11 +57,8 @@
     <input type="submit" value="Submit" />
     
     <br/><br/>
-
+    
+    
 </fieldset>
     
-    
-
-</form>
-
-<br/><br/>
+</form>    

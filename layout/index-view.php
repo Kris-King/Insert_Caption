@@ -27,7 +27,7 @@
 
                     <li><a href="http://localhost/InsertCaption/web/index.php?page=signUp">Sign Up</a></li>
 
-                    <li><a href="http://localhost/InsertCaption/web/index.php?page=home">Sign In</a></li>
+                    <li><a href="http://localhost/InsertCaption/web/index.php?page=signIn">Sign In</a></li>
 
                     <li><a href="http://localhost/InsertCaption/web/index.php?page=home">Sign Out</a></li>
                 </ul>
