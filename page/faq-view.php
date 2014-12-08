@@ -3,10 +3,13 @@
 
 <h1>FAQ - Frequently Asked Questions</h1>
 
+<img src="../web/images/faq.jpg" alt="faq image"/>
+
+
 <br/><br/>
 
-<p>Below you can find a list of commonly asked questions however if you can not find
-    what you looking for, you can go to the Help page for more indepth
+<p>Below you can find a list of commonly asked questions however, if you can not find
+    what you are looking for, you can go to the Help page for more indepth
     explanations. If you are still lost, do not hesitate in contacting us.</p>
 
 <br/>

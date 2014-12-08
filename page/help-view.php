@@ -3,7 +3,13 @@
 
 <h1>Help</h1>
 
-<br/><br/>
+<br/>
+
+
+<img src="../web/images/help.jpg" alt="help image"/>
+
+
+<br/>
 
 <p>Below is a list of helpful hints to assist you when using
     our site.</p>
