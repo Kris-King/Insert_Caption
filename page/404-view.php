@@ -29,7 +29,7 @@
 </p>
 
 <p>
-    Since it may be us OR it was probably you; here have some images of people laughing. Hopefully these will ease your frustration
+    Since it may be us OR it was probably you; here have some images of people smiling. Hopefully these will ease your frustration
     or... it may make you smash your device, either way this was great lets do this again sometime :)
 </p>
 
@@ -44,7 +44,7 @@
 <img src="../web/images/404_img4.jpeg" title="Attribution: http://premier.gov.ru/" alt="404 error image 4"/>
 
 <p>
-    So if you could mosy on back to the <a href="http://localhost/InsertCaption/web/index.php">home page</a> that would be terrific ;)
+    So if you could mosy on back to the <a href="http://localhost/InsertCaption/web/index.php">home page</a> that would be terrific (;
 </p>
 
 <br/><br/>

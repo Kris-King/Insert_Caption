@@ -27,14 +27,15 @@ and open the template in the editor.
                     'Error' => '../validation/Error.php',
                     'Exception' => '../exception/NotFoundException.php',
                     'Flash' => '../flash/Flash.php',
-//                    'FlightBookingValidator' => '../validation/FlightBookingValidator.php',
-//                    'FlightBooking' => '../model/FlightBooking.php',
+//                    'CreateAccountValidator' => '../validation/CreateAccountValidator.php',
+                    'Image' => '../model/Image.php',
                     'Mapper' => '../mapping/Mapper.php',
-                    'utils' => '../util/utils.php',
+                    'Utils' => '../util/Utils.php',
                     'Dao' => '../dao/Dao.php',
                     'UserDao' => '../dao/UserDao.php',
                     'CaptionDao' => '../dao/CaptionDao.php',
-                    'ImageDao' => '../dao/ImageDao.php'
+                    'ImageDao' => '../dao/ImageDao.php',
+                    'Uploader' => '../upload/Uploader.php'
                 );
                 if (!array_key_exists($name, $classes)) {
 
@@ -144,36 +145,7 @@ and open the template in the editor.
                 }
             }
 
-            private function doCRUD() {
-                //create DAO object
-                $dao = new FlightBookingDao();
-
-                //create (insert into db)
-                $flightBooking = new FlightBooking();
-                $date = new DateTime("+1 day");
-                $date->setTime(0, 0, 0);
-                $flightBooking->setType("");
-                $flightBooking->setMedicalCondition("");
-                $flightBooking->setSpecialRequirement("");
-                $savedFlightBooking = $dao->save($flightBooking);
-                echo '<h2>Create</h2>New booking created. Id = ' . $savedFlightBooking->getId() . ".<br/>";
-
-                //read               
-                $booking = $dao->findById($savedFlightBooking->getId());
-                echo '<h2>Read</h2>Booking retrieved from database. Id = ' . $booking->getId() . ".<br/>";
-
-                //update (this booking already has an id, so it will be updated, not inserted
-                $booking->setDuration(rand(30, 180));
-                $dao->save($booking);
-                echo '<h2>Update</h2>Booking updated with new duration. Id = ' . $booking->getId() . ", duration = " . $booking->getDuration() . ".<br/>";
-
-                //delete (could remove from db, but have chosen to update the status to "VOIDED"
-                //so that we can use the booking info in the future.
-                $isVoided = $dao->delete($booking->getId());
-                echo '<h2>Delete</h2>Booking voided = ' . $isVoided;
-                $voidedBooking = $dao->findById($booking->getId());
-                echo '. Id = ' . $booking->getId() . ", status = " . $voidedBooking->getStatus() . ".<br/>";
-            }
+         
 
             function init() {
 
