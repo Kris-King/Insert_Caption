@@ -2,7 +2,7 @@
 
 
 <form action="#" method="post" enctype="multipart/form-data">
-	    <input type="hidden" name="MAX_FILE_SIZE" value="1000000" />
+	    <input type="hidden" name="MAX_FILE_SIZE" value="10000000" />
 	    <fieldset>
 		<table>
 		    <tr><td align="right">Upload Image</td>

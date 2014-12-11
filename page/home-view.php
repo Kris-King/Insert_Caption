@@ -10,4 +10,7 @@
 
 </select>
 
+
+<a href="http://localhost/InsertCaption/web/index.php?page=list">To List...</a>
+
 <br/><br/>

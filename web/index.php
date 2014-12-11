@@ -29,6 +29,7 @@ and open the template in the editor.
                     'Flash' => '../flash/Flash.php',
 //                    'CreateAccountValidator' => '../validation/CreateAccountValidator.php',
                     'Image' => '../model/Image.php',
+                    'Caption' => '../model/Caption.php',
                     'Mapper' => '../mapping/Mapper.php',
                     'Utils' => '../util/Utils.php',
                     'Dao' => '../dao/Dao.php',

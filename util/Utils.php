@@ -14,6 +14,7 @@
 final class Utils {
 
     private function __construct() {
+        
     }
 
     /**
@@ -24,7 +25,7 @@ final class Utils {
     public static function createLink($page, array $params = array()) {
         $params = array_merge(array('page' => $page), $params);
         // TODO add support for Apache's module rewrite
-        return 'index.php?' .http_build_query($params);
+        return 'index.php?' . http_build_query($params);
     }
 
     /**
@@ -78,22 +79,32 @@ final class Utils {
      * @return Todo {@link Todo} instance
      * @throws NotFoundException if the param or {@link Todo} instance is not found
      */
-    public static function getTodoByGetId() {
-        $id = null;
-        try {
-            $id = self::getUrlParam('id');
-        } catch (Exception $ex) {
-            throw new NotFoundException('No TODO identifier provided.');
-        }
-        if (!is_numeric($id)) {
-            throw new NotFoundException('Invalid TODO identifier provided.');
-        }
-        $dao = new TodoDao();
-        $todo = $dao->findById($id);
-        if ($todo === null) {
-            throw new NotFoundException('Unknown TODO identifier provided.');
-        }
-        return $todo;
+    public static function getImageByGetId() {
+//        $id = null;
+//        try {
+//            $id = self::getUrlParam('id');
+//        } catch (Exception $ex) {
+//            throw new NotFoundException('No image identifier provided.');
+//        }
+//        if (!is_numeric($id)) {
+//            throw new NotFoundException('Invalid image identifier provided.');
+//        }
+//        $dao = new ImageDao();
+//        $image = $dao->findById($id);
+//        if ($image === null) {
+//            throw new NotFoundException('Unknown image identifier provided.');
+//        }
+
+        $image = new Image();
+        $image->setSource("images/userimages/Quaid/14 - 1 (1).gif");
+        $image->setName("name");
+        $image->setExt("extension");
+        $image->setUserId("user id");
+        $image->setId(111);
+
+
+
+        return $image;
     }
 
     /**
@@ -115,6 +126,3 @@ final class Utils {
     }
 
 }
-
-
-
