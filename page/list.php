@@ -14,7 +14,7 @@ $dao = new ImageDao();
 $images = array();
 
 $image = new Image();
-$image->setSource("source");
+$image->setSource("images/userimages/Quaid/Soviet_T-34_with_desant_rushing_into_village.jpg");
 $image->setName("name");
 $image->setExt("extension");
 $image->setUserId("user id");
@@ -22,7 +22,7 @@ $image->setUserId("user id");
 $images [0]=$image;
 
 $image = new Image();
-$image->setSource("source");
+$image->setSource("images/userimages/Quaid/F-14.jpg");
 $image->setName("name");
 $image->setExt("extension");
 $image->setUserId("user id");
@@ -30,25 +30,13 @@ $image->setUserId("user id");
 $images [1]=$image;
 
 $image = new Image();
-$image->setSource("source");
+$image->setSource("images/userimages/Quaid/155mm-GMC-M12-France-1944.jpg");
 $image->setName("name");
 $image->setExt("extension");
 $image->setUserId("user id");
         
 $images [2]=$image;
 
-$image = new Image();
-$image->setSource("source");
-$image->setName("name");
-$image->setExt("extension");
-$image->setUserId("user id");
-        
-$images [3]=$image;
 
-$image = new Image();
-$image->setSource("source");
-$image->setName("name");
-$image->setExt("extension");
-$image->setUserId("user id");
         
-$images [4]=$image;
+

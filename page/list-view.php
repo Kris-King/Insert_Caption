@@ -12,7 +12,7 @@
         <tr>
                 
                 
-                <h3><a href="<?php echo Utils::createLink('detail', array('id' => $image->getId())) ?>"><?php echo Utils::escape($image->getName()); ?></a></h3>
+        <h3><a href="<?php echo Utils::createLink('detail', array('id' => $image->getId())) ?>"><img src="<?php echo $image->getSource(); ?>"/></a></h3>
                 
                 
     </tr>

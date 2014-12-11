@@ -1,7 +1,7 @@
 <br/><br/>
 
 
-<form id="signIn_Form" method="post" onsubmit="submitForm(this);" action="http://localhost/InsertCaption/web/index.php">
+<form name="login" method="post" action="http://localhost/InsertCaption/web/index.php">
 
 <fieldset>
     
@@ -16,17 +16,13 @@
 
 
 
-    <label for="u_name">User Name</label><sup>*</sup>
+    <label for="user_name">User Name</label><sup>*</sup>
 
     <br />
 
-    <input id="u_name" type="text" name="username"/>
-
-
-
-    <span id="un_error"></span><br/><br/>
-
-
+    <input id="user_name" type="text" name="username"/>
+    
+    <br/><br/>
 
 
 
@@ -42,11 +38,6 @@
 
     <input id="password" type="password" name="password"/>
 
-    <span id="password_error"></span><br/><br/>
-
-
-
-
 
     <!--        ////////////////////////////////       -->
     <!--                  Submit form                  -->
@@ -54,9 +45,11 @@
 
     <br/><br/>
 
-    <input type="submit" value="Submit" />
+    <input type="submit" name="login" value="Sign In" />
     
     <br/><br/>
+    
+    Don't have an account, need one? <a href="http://localhost/InsertCaption/web/index.php?page=signUp">Create Account</a>
     
     
 </fieldset>
