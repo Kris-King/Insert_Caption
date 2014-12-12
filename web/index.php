@@ -30,6 +30,7 @@ and open the template in the editor.
 //                    'CreateAccountValidator' => '../validation/CreateAccountValidator.php',
                     'Image' => '../model/Image.php',
                     'Caption' => '../model/Caption.php',
+                    'User' => '../model/User.php',
                     'Mapper' => '../mapping/Mapper.php',
                     'Utils' => '../util/Utils.php',
                     'Dao' => '../dao/Dao.php',

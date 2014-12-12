@@ -7,17 +7,15 @@
  */
 
 /**
- * Description of Image
+ * Description of User
  *
  * @author kristopher.king
  */
-class Image {
+class User {
     
     private $id;
     private $name;
-    private $ext;
-    private $source;
-    private $userId;
+    private $password;
     
     
     public function getId() {
@@ -28,12 +26,8 @@ class Image {
         return $this->name;
     }
 
-    public function getExt() {
-        return $this->ext;
-    }
-
-    public function getUserId() {
-        return $this->userId;
+    public function getPassword() {
+        return $this->password;
     }
 
     public function setId($id) {
@@ -44,22 +38,9 @@ class Image {
         $this->name = $name;
     }
 
-    public function setExt($ext) {
-        $this->ext = $ext;
+    public function setPassword($password) {
+        $this->password = $password;
     }
-
-    public function setUserId($userId) {
-        $this->userId = $userId;
-    }
-
-    public function getSource() {
-        return $this->source;
-    }
-
-    public function setSource($source) {
-        $this->source = $source;
-    }
-
 
     
 }
